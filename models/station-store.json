@@ -1,0 +1,103 @@
+{
+  "stationCollection": [
+    {
+      "id": "01",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Tramore",
+      "latitude": "52.16",
+      "longitude": "-7.152",
+      "readings": [
+        {
+          "id": "02",
+          "date": "2022-08-10 10:31:00",
+          "code": "800",
+          "temp": "0.5",
+          "windspeed": "3.5",
+          "winddirection": "90",
+          "pressure": "1002"
+        },
+        {
+          "id": "03",
+          "date": "2022-08-10 12:34:00",
+          "code": "600",
+          "temp": "6.0",
+          "windspeed": "2",
+          "winddirection": "96",
+          "pressure": "1004"
+        },
+        {
+          "id": "04",
+          "date": "2022-08-10 13:24:00",
+          "code": "300",
+          "temp": "4.0",
+          "windspeed": "2",
+          "winddirection": "96",
+          "pressure": "1001"
+        },
+        {
+          "id": "05",
+          "date": "2022-08-10 118:14:00",
+          "code": "500",
+          "temp": "4.0",
+          "windspeed": "4",
+          "winddirection": "80",
+          "pressure": "899"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Dunmore",
+      "latitude": "52.149",
+      "longitude": "-6.994",
+      "readings": [
+        {
+          "id": "06",
+          "date": "2022-08-20 10:31:00",
+          "code": "700",
+          "temp": "8",
+          "windspeed": "1",
+          "winddirection": "98",
+          "pressure": "999"
+        },
+        {
+          "id": "07",
+          "date": "2022-08-19 09:31:00",
+          "code": "200",
+          "temp": "0.5",
+          "windspeed": "3.5",
+          "winddirection": "102",
+          "pressure": "1000"
+        },
+        {
+          "id": "03",
+          "date": "2022-08-10 12:34:00",
+          "code": "600",
+          "temp": "6.0",
+          "windspeed": "2",
+          "winddirection": "96",
+          "pressure": "1004"
+        },
+        {
+          "id": "04",
+          "date": "2022-08-10 13:24:00",
+          "code": "300",
+          "temp": "4.0",
+          "windspeed": "2",
+          "winddirection": "96",
+          "pressure": "1001"
+        },
+        {
+          "id": "05",
+          "date": "2022-08-10 118:14:00",
+          "code": "500",
+          "temp": "2.0",
+          "windspeed": "4",
+          "winddirection": "80",
+          "pressure": "899"
+        }
+      ]
+    }
+  ]
+}

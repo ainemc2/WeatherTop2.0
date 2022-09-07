@@ -1,0 +1,37 @@
+{{> menu}}
+
+<section class="ui segment">
+    {{>listreadings}}
+    {{>tablecontent}} 
+    {{>addreading}}
+    
+  
+ 
+  <div class="ui segment" id="chart"></div>
+
+  </h1>
+<script>
+  data = {
+     labels: [
+        {{#each station.readings}}
+          "{{date}}",
+        {{/each}}
+      ],
+    
+    datasets: [
+      { values: [{{#each station.readings}}
+          "{{temp}}",
+        {{/each}}] }
+    ]
+  };
+  new frappe.Chart("#chart", {
+    title: "Temp Trend",
+    data: data,
+    type: "line",
+    height: 180,
+    colors: ["blue"],
+    
+  });
+</script>
+  
+</section>

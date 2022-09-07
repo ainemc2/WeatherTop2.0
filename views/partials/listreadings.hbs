@@ -1,0 +1,90 @@
+<section class="ui segment" action="/stations/${_station.id}/addlistreadings" method="POST">
+    <div class="ui five inverted stackable cards">
+        <div class="card">
+            <div class="extra">
+                <h3 class="header">
+                    {{name}}{{station.name}}<i class="right floated map marker icon large purple"></i>
+                </h3>
+                <h4>
+                    Lat: {{station.latitude}}{{latitude}}
+                    <br>
+                    Lng: {{station.longitude}}{{longitude}}
+                </h4>
+            </div>
+        </div>
+        <div class="card">
+            <div class="extra">
+                <h3 class="header">
+                    Weather
+                    <i class="right floated large {{weatherCodeIcons}} large red"></i>
+                </h3>
+                <h4 class="header"> {{weatherCode}}
+                </h4>
+            </div>
+        </div>
+        <div class="card">
+            <div class="extra">
+                <h3 class="header">
+                    Temp <i class="right floated temperature high icon large blue"></i>
+                </h3>
+                <h4 class="header">
+                    {{lastReading.temp}} C
+                    <br>
+                    {{tempF}} F
+                    <br>
+                    Max: {{maxReading.temp}}
+                    <br>
+                    Min: {{minReading.temp}}
+                    <br>
+                    <i class="{{tempTrendIcons}}"></i>
+                    </br>
+                    <i class="right floated large {{tempTrend}} blue "></i>
+                </h4>
+            </div>
+        </div>
+        <div class="card">
+            <div class="extra">
+                <h3 class="header">
+                    Wind <i class="right floated wind icon green extra large"></i>
+                </h3>
+                <h4 class="header">
+                    {{beafourt}} bft
+                    <br>
+                    {{winddirectionCompass}}
+                    <br>
+                    Feels like: {{windChill}}
+                    <br>
+                    Max: {{maxReading.windspeed}}
+                    <br>
+                    Min: {{minReading.windspeed}}
+                    <br>
+                    <i class="right floated large {{windTrend}} green"></i>
+                </h4>
+            </div>
+        </div>
+        <div class="card">
+            <div class="extra">
+                <h3 class="header">
+                    Pressure <i class="right floated centos icon orange extra large"></i>
+                </h3>
+                <h4 class="header">
+                    {{lastReading.pressure}} hpa
+                    <br>
+                    Max: {{maxReading.pressure}}
+                    <br>
+                    Min: {{minReading.pressure}}
+                    <br>
+                    <i class="right floated large {{pressureTrend}} orange"></i>
+                </h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
